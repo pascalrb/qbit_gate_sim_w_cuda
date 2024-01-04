@@ -5,3 +5,13 @@ Simulation of a single-qbit quantum gate. A single-qubit gate operation can be s
 CUDA parallelization infrastructure is used along with an NVIDIA GPU to leverage the parallelization nature of qubit gate operation which could be organized as a matrix multiplication problems.
 
 Guided by a project from ECE786 at NC State University taught by Prof. [Huiyang Zhou](https://ece.ncsu.edu/people/hzhou/).
+
+
+
+### Separate Memory
+`quamsimV1.cu`
+- CPU & GPU allocated memory managed separately
+
+### Unified Memory
+`quamsimV2.cu`
+- CPU & GPU share the same memory
